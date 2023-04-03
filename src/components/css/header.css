@@ -1,0 +1,98 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+
+.header {
+    background-color: #141b29;
+    height: 170px;
+    -webkit-box-shadow: 0px 6px 18px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 18px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 18px -8px rgba(0,0,0,0.75);
+}
+
+.header h1 {
+    text-align: center;
+    padding: 60px 0 70px 0;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 900;
+    font-family: Lily Script One ;
+}
+
+/* TODO FORM SECTION */
+.header .header-section .input-container {
+    position: relative;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.header .header-section .input-container input {
+    padding: 20px;
+    width: 500px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.header .header-section .input-container button {
+    padding: 20px;
+    font-size: 12px;
+    border: 1px solid #ddd;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: Montserrat;
+}
+
+/* TODO LIST */
+.section .todo-list-section {
+    background-color: #fff;
+    width: 500px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.section .todo-list-section .item p {
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 10px;
+}
+
+.section .todo-list-section .item p .delete-icon {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+
+.section .todo-list-section .item p .delete-icon:hover {
+    color: red;
+}
+
+/* TODO FILTER SECTION */
+ .filter-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 500px;
+    margin: 10px auto;
+}
+
+.filter-section button {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 0;
+    width: 50%;
+    text-align: center;
+    font-family: Montserrat;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.filter-section button:hover {
+    background-color: #f1f1f1;
+    opacity: .6;
+}
